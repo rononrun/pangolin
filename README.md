@@ -53,6 +53,8 @@ make -j8
 cd ..
 #python setup.py install
 ```
+After building, the pangolin executable pangolin.cpython-38-x86_64-linux-gnu.so will be created in the current directory.   
+In order to run pangolin in another directory, please copy this executable to that directory.   
 Tested under Anaconda, Python 3.8+.
 
 ## Getting started
