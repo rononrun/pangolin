@@ -28,6 +28,8 @@ but it's built in this repository, you don't need to install.
 * Python: To run those python examples, 
 you should have [numpy](http://www.numpy.org/) and [PyOpenGL](http://pyopengl.sourceforge.net/) installed. 
 
+## Issues and Resolution
+
 
 ## Installation
 ```
