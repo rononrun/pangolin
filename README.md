@@ -30,13 +30,13 @@ you should have [numpy](http://www.numpy.org/) and [PyOpenGL](http://pyopengl.so
 
 ## Issues and Resolution
 * This repo is tested in conda env, python 3.8+
-* Dependencies:
-conda install numpy
-conda install scipy.
-conda install cv2.
-pip install opencv-contrib-python
-conda install pyopengl
-conda install pybind11
+* Dependencies:  
+conda install numpy  
+conda install scipy  
+conda install cv2  
+pip install opencv-contrib-python  
+conda install pyopengl  
+conda install pybind11  
 * Because cmake cannot correctly pull the python executable and library in anaconda env, these paths are manually appended in the cmake command line (see installation guide below).
 
 ## Installation
