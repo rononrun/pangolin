@@ -31,16 +31,17 @@ you should have [numpy](http://www.numpy.org/) and [PyOpenGL](http://pyopengl.so
 
 ## Installation
 ```
+conda activate py36_msckf
 git clone https://github.com/uoip/pangolin.git
 cd pangolin
 mkdir build
 cd build
-cmake ..
+cmake .. --DPYTHON_EXECUTABLE=/home/waimun/anaconda3/envs/py36_msckf/bin/python -DPYTHON_LIBRARY=/home/waimun/anaconda3/envs/py36_msckf/lib/libpython3.8.so
 make -j8
 cd ..
-python setup.py install
+#python setup.py install
 ```
-Tested under Ubuntu 16.04, Python 3.6+.
+Tested under Anaconda, Python 3.8+.
 
 ## Getting started
 The code below create a window, and render a cube and a cloud of points.
